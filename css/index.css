@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    text-align: center;
+    vertical-align: top;
+    font: inherit;
+    cursor: inherit;
+    color: inherit;
+}
+
+html, body {
+    background: #fff;
+    font: normal 12px/14px sans-serif;
+    height: 100%;
+    cursor: default;
+    overflow: hidden;
+}
+
+.btn{
+    position: absolute;
+    z-index: 1000;
+    left: 5px;
+    top: 10px;
+    background-color: rgb(140, 214, 127);
+    z-index: 5000000 !important;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #e74c3c;
+}
+
+.container{
+    position: absolute;
+    height: 95vh;
+    min-width: 400px;
+    right: 0px;
+    background: linear-gradient(#ff6e7f,#bfe9ff);
+    margin: 10px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+
+.container p{
+    font-size: 15px;
+}
+
+.msg{
+    border: 2px solid white;
+    background-color: rgb(113, 184, 92);
+    padding: 10px;
+    border-radius: 10%;
+    border: 2px solid #72be7c;
+    line-height: normal;
+    margin: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.right{
+    float: right;
+    clear: both;
+    margin-left: 40px;
+    text-align: right;
+}
+
+/* .send{
+    position: absolute;
+    bottom: 30px;
+} */
